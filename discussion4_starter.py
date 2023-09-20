@@ -5,9 +5,9 @@ class Rectangle():
     # It sets an instance variable, "width" to the passed argument, width
     # It sets an instance variable, "height" to the passed argument, height
 
-#shalin
-    # YOUR CODE HERE
-
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
 
 
     # Create the "__str__" method
